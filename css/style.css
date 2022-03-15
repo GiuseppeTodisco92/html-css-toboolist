@@ -19,6 +19,9 @@ h1 {
   display: inline-block;
   font-size: 42px;
 }
+h2 {
+  font-size: 18px;
+}
 .container {
   max-width: 800px;
   margin: auto;
@@ -52,4 +55,69 @@ h1 {
   color: grey;
   font-size: 12px;
   text-align: center;
+}
+hr {
+  background-color: rgb(246, 248, 249);
+  border: none;
+  height: 2px;
+}
+.downarrow {
+  font-size: 15px;
+}
+
+.boxlist {
+  padding-left: 40px;
+  padding-top: 20px;
+}
+.circlegreen {
+  font-size: 8px;
+  color: rgb(4, 201, 20);
+  height: 10px;
+  border: 1px;
+  border-radius: 100%;
+  border-color: rgb(4, 201, 20);
+  border-style: solid;
+  padding: 2px;
+  padding-left: 3px;
+  text-align: center;
+  padding-right: 3px;
+  margin-right: 5px;
+}
+.crossred {
+  font-size: 6px;
+  color: rgb(201, 4, 4);
+  height: 10px;
+  border: 1px;
+  border-radius: 100%;
+  border-color: rgb(201, 4, 4);
+  border-style: solid;
+  padding: 2px;
+  padding-left: 3px;
+  text-align: center;
+  padding-right: 3px;
+  margin-right: 5px;
+}
+/* rowdistance utilizzato per la gestione delle righe */
+.rowdistance {
+  margin-top: 20px;
+}
+
+.boxtask {
+  color: white;
+  font-size: 10px;
+  padding: 6px;
+  margin-top: 8px;
+  border-radius: 20px;
+}
+
+.colorboxcyan {
+  background-color: rgb(69, 171, 234);
+}
+
+.colorpurple {
+  background-color: rgb(156, 114, 228);
+}
+
+.colororange {
+  background-color: rgb(242, 158, 51);
 }
