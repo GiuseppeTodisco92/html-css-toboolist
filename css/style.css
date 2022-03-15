@@ -2,6 +2,9 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
 }
 header {
   background-color: white;
@@ -21,12 +24,14 @@ h1 {
 }
 h2 {
   font-size: 18px;
+  margin-top: 10px;
 }
 .container {
   max-width: 800px;
   margin: auto;
   margin-top: 50px;
   padding-top: 15px;
+  padding-bottom: 50px;
   background-color: white;
   box-sizing: border-box;
 }
@@ -68,6 +73,7 @@ hr {
 .boxlist {
   padding-left: 40px;
   padding-top: 20px;
+  font-size: 12;
 }
 .circlegreen {
   font-size: 8px;
@@ -99,7 +105,7 @@ hr {
 }
 /* rowdistance utilizzato per la gestione delle righe */
 .rowdistance {
-  margin-top: 20px;
+  margin-top: 12px;
 }
 
 .boxtask {
@@ -120,4 +126,10 @@ hr {
 
 .colororange {
   background-color: rgb(242, 158, 51);
+}
+.colorpink {
+  background-color: rgb(216, 99, 161);
+}
+.colorgreen {
+  background-color: rgb(176, 201, 38);
 }
