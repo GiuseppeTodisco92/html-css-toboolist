@@ -36,30 +36,34 @@ h2 {
   box-sizing: border-box;
 }
 
-#addtask {
-  display: inline-block;
-  background-color: rgb(71, 173, 241);
-  width: 80px;
-  padding: 8px;
-  border-radius: 10%;
-  color: white;
-  margin-left: 40px;
-  margin-bottom: 10px;
-  font-size: 12px;
-  text-align: center;
-}
-#addsection {
-  display: inline-block;
-  background-color: rgb(255, 255, 255);
-  width: 100px;
-  padding: 8px;
-  border-radius: 10%;
-  border: 1px;
-  border-color: grey;
+/* sostituito hr con border bottom div inferiore  */
+.taskbox {
+  border-width: 0px 0px 1px 0px;
   border-style: solid;
-  color: grey;
-  font-size: 12px;
+  border-color: rgb(246, 248, 249);
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+
+button {
   text-align: center;
+  padding: 8px;
+  border-radius: 10%;
+}
+
+#btnblue {
+  background-color: rgb(71, 173, 241);
+  color: white;
+  font-size: 12px;
+  border: none;
+}
+#btngrey {
+  background-color: transparent;
+  border: 1px;
+  border-color: rgb(216, 221, 223);
+  border-style: solid;
+  color: rgb(216, 221, 223);
+  font-size: 12px;
 }
 hr {
   background-color: rgb(246, 248, 249);
@@ -89,8 +93,10 @@ hr {
   padding-right: 3px;
   margin-right: 5px;
 }
+
+/* fix font-size cross  */
 .crossred {
-  font-size: 6px;
+  font-size: 8px;
   color: rgb(201, 4, 4);
   height: 10px;
   border: 1px;
